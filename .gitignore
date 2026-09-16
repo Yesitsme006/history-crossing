@@ -10,8 +10,10 @@ lerna-debug.log*
 node_modules
 dist
 dist-ssr
-history-crossing-dist
 *.local
+*.zip
+history-crossing
+history-crossing-dist
 
 # Editor directories and files
 .vscode/*
@@ -23,5 +25,3 @@ history-crossing-dist
 *.njsproj
 *.sln
 *.sw?
-*.zip
-history-crossing/
