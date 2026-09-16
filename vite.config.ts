@@ -4,6 +4,6 @@ import { defineConfig } from 'vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: process.env.GH_PAGES ? '/history-crossing/' : '/',
+  base: process.env.GH_PAGES ? './' : '/',
   plugins: [tailwindcss(), react()],
 })
